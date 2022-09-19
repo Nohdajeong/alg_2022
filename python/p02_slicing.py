@@ -26,12 +26,14 @@ print(words[:3])
 
 print('-- index 3 번째 이후, 4번째 직전까지 있는 것 --')
 print(words[3:4])
+# 뒤에 있는 것은 포함하지 않음 = 4번째 직전이라는 소리 
 # python 에서 범위를 지정할 때는 대부분 [inclusive, exclusive) 형태를 사용한다.
 # (거의)유일하게 random.randinit(10, 15) 의 경우만 [inclusive, inclusive] 형태이다
 # random.randrange(10, 15) 를 쓰면 [10, 15) 가 되기도 한다
 
 word = "especially"
 print(word[3:8], word[2:])
+# 3:8 = ecial / 2: = pecially
 # slicing 은 문자열에 대해서도 적용된다
 
 
